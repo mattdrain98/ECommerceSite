@@ -15,7 +15,23 @@ export class GamesService {
         price: 49.99,
         imageUrl: '/assets/games/images/d92a40d5-ff03-437f-8419-54bc50b51435.webp',
         description: 'Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.',
-        releaseDate: '2024-11-15'
+        releaseDate: '2025-04-24'
+      },
+      {
+        id: 2,
+        name: 'Metal Gear Solid Δ: Snake Eater',
+        price: 69.99,
+        imageUrl: '/assets/games/images/c1fa436c-02ec-4b51-b2e9-d31471ab6754.webp',
+        description: 'A remake of the 2004 game METAL GEAR SOLID 3: SNAKE EATER, with the same gripping story and engrossing world, now with all new graphics and 3D audio that enhance the jungle atmosphere. Get ready for the ultimate survival stealth action experience.',
+        releaseDate: '2025-08-28'
+      },
+        {
+        id: 3,
+        name: 'Ghost of Yotei',
+        price: 69.99,
+        imageUrl: '/assets/games/images/59be9e4b-f5d1-42a9-82bc-6c40fc855d7a.webp',
+        description: 'Discover a bold, new story of a warrior in Japan who is on a mission of vengeance all her own. Set 300 years after the critically acclaimed Ghost of Tsushima, Ghost of Yōtei is a standalone experience set in 1600s rural Japan. The story follows a haunted, lone mercenary named Atsu. Thirsty for revenge, she travels through the beautiful, rugged landscapes of northern Japan, hunting those who killed her family many years earlier. Sixteen years after her family`s death, Atsu`s quest across Ezo brings her to unexplored lands in search of a gang of six outlaws, but she finds much more than vengeance. Throughout her journey, Atsu will discover unlikely allies, and greater bonds than she could have imagined.',
+        releaseDate: '2025-10-02'
       }
     ];
   }

@@ -2,15 +2,19 @@
     @for (game of games; track game) {
         <li>
             <a>
+                <span class="favorite {{game.favorite ? '' : 'not'}}">
+                    ❤
+                </span>
                 <img src="{{game.imageUrl}}" alt="Game Image">
                 <div class="content">
                     <div class="name">{{game.name}}</div>
                 </div> 
-                <span class="favorite {{game.favorite ? '' : 'not'}}">
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                </span>
                 <div class="product-item-footer">
 
+                </div>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">{{game.price}}</span>
                 </div>
             </a>
         </li>

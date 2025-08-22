@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { GamesService } from '../services/games/games';
 import { Games } from '../shared/models/Games';
-import { NgForOf } from "../../../node_modules/@angular/common/common_module.d";
 
 @Component({
-  selector: 'app-home',
-  imports: [NgForOf],
+  selector: 'app-home',  
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
