@@ -1,0 +1,10 @@
+<div class="tags">
+    @if (tags.length > 0)
+    {
+        @for (tag of tags; track tag) {
+            <a class="tag">
+                {{tag.name}} ({{tag.count}})
+            </a>
+        }
+    }
+</div>

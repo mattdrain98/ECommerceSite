@@ -1,0 +1,20 @@
+.tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+div a{
+    background-color: #a2cdff; 
+    padding: .3rem 1rem; 
+    margin: .2rem .15rem; 
+    border-radius: 10rem; 
+    font-weight: 600; 
+}
+
+div a:hover{
+    opacity: 0.8; 
+    cursor: pointer;
+}

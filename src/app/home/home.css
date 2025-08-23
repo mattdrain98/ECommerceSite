@@ -36,24 +36,21 @@ li img{
 }
 
 .content{
-    padding-left: 5px; 
-    padding-right: 5px; 
-    text-align: center; 
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between; 
+    padding: .5rem 1rem;
+    position: relative;
 }
 
 .price{
     padding-left: 20px; 
-    font-weight: 600;
-    color: #630000;
-    font-size: 1.2rem;
-    padding-bottom: 20px; 
+    margin-top: 0.3rem; 
 }
 
 .favorite{
     justify-content: right;
     text-align: right;
     padding-right: 10px;
+}
+
+.favorite.not{
+    color: grey; 
 }

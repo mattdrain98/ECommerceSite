@@ -1,3 +1,5 @@
+<app-search></app-search>
+<app-tags></app-tags>
 <ul>
     @for (game of games; track game) {
         <li>
@@ -10,11 +12,9 @@
                     <div class="name">{{game.name}}</div>
                 </div> 
                 <div class="product-item-footer">
-
                 </div>
                 <div class="price">
-                    <span class="currency">$</span>
-                    <span class="amount">{{game.price}}</span>
+                    ${{game.price}}
                 </div>
             </a>
         </li>
