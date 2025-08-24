@@ -3,7 +3,7 @@
 <ul>
     @for (game of games; track game) {
         <li>
-            <a>
+            <a routerLink="['/game', game.id]">
                 <span class="favorite {{game.favorite ? '' : 'not'}}">
                     ❤
                 </span>

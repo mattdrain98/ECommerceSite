@@ -3,7 +3,7 @@ import { GamesService } from '../services/games/games';
 import { Games } from '../shared/models/Games';
 import { ActivatedRoute } from '@angular/router';
 import { Search } from "../search/search";
-import { Tags } from "../tags/tags"; 
+import { Tags } from "../tags/tags";
 
 @Component({
   selector: 'app-home',  
