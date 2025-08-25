@@ -1,0 +1,15 @@
+.date{
+    text-align: center;
+    justify-content: center;
+}
+
+.temp{
+    text-align: center;
+    justify-content: center;
+}
+
+.summary{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem; 
+}

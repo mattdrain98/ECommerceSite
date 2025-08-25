@@ -41,7 +41,7 @@ export class GamesService {
 
   getAll():Games[]{
 
-    return [
+ return [
       {
         id: 1,
         name: 'Clair Obscur: Expedition 33',
