@@ -1,9 +1,19 @@
-<div class="tags">
+<div class="tags" [style.justifyContent]="justifyContent">
     @if (tags.length > 0)
     {
         @for (tag of tags; track tag) {
             <a class="tag">
                 {{tag.name}} ({{tag.count}})
+            </a>
+        }
+    }
+</div>
+<div class="tags">
+    @if (gamePageTags && gamePageTags.length > 0)
+    {
+        @for (tagName of gamePageTags; track tagName) {
+            <a routerLink="['/games', 'tag', tagName]">
+                {{tagName}}
             </a>
         }
     }

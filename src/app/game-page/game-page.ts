@@ -24,4 +24,7 @@ export class GamePage implements OnInit {
 
   }
 
+  addToCart(): void {
+    console.log("Added to cart");
+  }
 }
