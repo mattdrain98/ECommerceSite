@@ -9,6 +9,10 @@ export class GamesService {
   
   constructor() { }
 
+  getGameById(id:number):Games{
+    return this.getAll().find(game => game.id == id)!;
+  }
+
   getAllTags():Tag[]{
     return [
       {name: 'All', count:6},
