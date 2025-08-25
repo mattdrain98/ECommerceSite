@@ -1,0 +1,48 @@
+<app-not-found [visible]="!cart || cart.items.length <=0"
+notFoundMessage="Cart Page Is Empty!"
+resetLinkText="Go To Home Page"></app-not-found>
+
+@if (cart && cart.items.length > 0)
+{
+<div class="container">
+    <ul>
+        @for (item of cart.items; track item) {
+        <li>
+            <div>
+                <img src="{{item.game.imageUrl}}" src="{{item.game.name}}" />
+            </div>
+            <div>
+                <a href="/game/{{item.game.id}}" routerLink="['/game', item.game.id]">
+                    {{item.game.name}}
+                </a>
+            </div>
+            <div>
+                <select #quantitySelect (change)="changeQuantity(item, quantitySelect.value)">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+            <div>
+                {{item.price | currency}}
+            </div>
+            <div>
+                <button class="remove-button" (click)="removeFromCart(item)">
+                    Remove
+                </button>
+            </div>
+        </li>
+        }
+    </ul>
+</div>
+
+<div class="checkout">
+    <div>
+        <div class="games-count">{{cart.items.length}}</div>
+        <div class="total-price">{{cart.totalPrice | currency}}</div>
+    </div>
+</div>
+}

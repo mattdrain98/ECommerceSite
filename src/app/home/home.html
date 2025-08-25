@@ -1,9 +1,12 @@
+<app-not-found [visible]="!games || games.length <=0"
+notFoundMessage="Game Page Is Empty!"></app-not-found>
+
 <app-search></app-search>
 <app-tags></app-tags>
 <ul>
     @for (game of games; track game) {
         <li>
-            <a routerLink="['/game', game.id]">
+            <a href="/game/{{game.id}}" routerLink="['/game', game.id]">
                 <span class="favorite {{game.favorite ? '' : 'not'}}">
                     ❤
                 </span>
@@ -14,7 +17,7 @@
                 <div class="product-item-footer">
                 </div>
                 <div class="price">
-                    ${{game.price}}
+                    {{game.price | currency}}
                 </div>
             </a>
         </li>

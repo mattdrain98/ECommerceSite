@@ -1,8 +1,10 @@
+import { Tag } from "./Tag";
+
 export class Games{
   id!:number; 
   name!:string;
   price!:number;
-  tags?:string[];
+  tags?:Tag[];
   favorite?:boolean = false;
   stars?:number;
   imageUrl!:string;

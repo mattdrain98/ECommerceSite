@@ -2,7 +2,7 @@
     @if (tags.length > 0)
     {
         @for (tag of tags; track tag) {
-            <a class="tag">
+            <a class="tag" href="/tag/{{tag.name}}" routerLink="['/tag', 'tag', tagName]">
                 {{tag.name}} ({{tag.count}})
             </a>
         }
@@ -12,7 +12,7 @@
     @if (gamePageTags && gamePageTags.length > 0)
     {
         @for (tagName of gamePageTags; track tagName) {
-            <a routerLink="['/games', 'tag', tagName]">
+            <a href="/tag/{{tagName}}" routerLink="['/tag', 'tag', tagName]">
                 {{tagName}}
             </a>
         }

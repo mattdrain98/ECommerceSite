@@ -4,12 +4,14 @@ import { Games } from '../shared/models/Games';
 import { ActivatedRoute } from '@angular/router';
 import { Search } from "../search/search";
 import { Tags } from "../tags/tags";
+import { CurrencyPipe } from '@angular/common';
+import { NotFound } from '../not-found/not-found';
 
 @Component({
   selector: 'app-home',  
   templateUrl: './home.html',
   styleUrl: './home.css',
-  imports: [Search, Tags]
+  imports: [Search, Tags, NotFound, CurrencyPipe]
 })
 export class Home implements OnInit {
 
