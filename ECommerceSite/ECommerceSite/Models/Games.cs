@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ECommerceSite
+namespace ECommerceSite.Models
 {
   public class Games
   {

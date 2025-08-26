@@ -1,4 +1,4 @@
-using ECommerceSite;
+using ECommerceSite.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
@@ -9,4 +9,5 @@ public class ApplicationDbContext : DbContext
   }
 
   public DbSet<Games> Games { get; set; }
+  public DbSet<Tags> Tags { get; set; }
 }
