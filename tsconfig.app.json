@@ -4,6 +4,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "lib": [
+            "es5", "es6", "dom", "dom.iterable"
+        ], 
     "types": [
       "node"
     ]

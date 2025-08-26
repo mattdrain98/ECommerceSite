@@ -15,7 +15,7 @@ import { NotFound } from "../not-found/not-found";
 export class CartPage {
   cart!:Cart; 
   constructor(private cartService: CartService, private gameService: GamesService) {
-    let games = gameService.getAll(); 
+    //let games = gameService.getAll(); 
     this.setCart(); 
    }
 

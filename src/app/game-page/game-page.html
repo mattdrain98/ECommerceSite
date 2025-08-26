@@ -1,18 +1,23 @@
 <div class="container">
-    <img [src]="game.imageUrl" [alt]="game.name" /> 
+
+    <!--@for (game in games$; track gameId)
+    {
+
+    }--> 
+    <!-- <img [src]="game.imageUrl" [alt]="game.name" /> --> 
 
     <div class="details">
         <div class="header">
             <span class="name">
-                {{game.name}}
+               <!-- {{game.name}}--> 
             </span>
-            <span class="favorite {{game.favorite ? '' : 'not'}}">
+           <!-- <span class="favorite {{game.favorite ? '' : 'not'}}">
                 ❤
-            </span>
+            </span>--> 
         </div>
         <div class="price">
-            ${{game.price}}
+            <!--${{game.price}}-->
         </div>
-        <button (click)="addToCart()">Add to Cart</button>
+        <!--<button (click)="addToCart()">Add to Cart</button>--> 
     </div>
 </div>

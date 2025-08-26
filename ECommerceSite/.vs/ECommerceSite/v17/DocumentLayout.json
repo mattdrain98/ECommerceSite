@@ -79,8 +79,7 @@
               "RelativeToolTip": "ECommerceSite\\ECommerceSite.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-08-26T16:55:25.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T16:55:25.028Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "ECommerceSite\\Games.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T16:38:10.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T16:38:10.938Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "ECommerceSite\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T16:35:31.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T16:35:31.167Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "ECommerceSite\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:50:49.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T14:50:49.283Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "ECommerceSite\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-25T20:55:39.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:55:39.988Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "ECommerceSite\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-25T20:54:57.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:54:57.278Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "ECommerceSite\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T20:08:00.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:08:00.272Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "ECommerceSite\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T20:07:59.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:07:59.68Z"
             },
             {
               "$type": "Document",
@@ -183,21 +175,19 @@
               "RelativeToolTip": "ECommerceSite\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-25T20:10:03.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:10:03.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ECommerceSite",
+              "Title": "ECommerceSite.csproj",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
               "RelativeDocumentMoniker": "ECommerceSite\\ECommerceSite.csproj",
               "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
               "RelativeToolTip": "ECommerceSite\\ECommerceSite.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-26T17:13:42.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T17:13:42.78Z"
             }
           ]
         }

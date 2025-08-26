@@ -1,6 +1,9 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Games } from '../../shared/models/Games'; 
 import { Tag } from '../../shared/models/Tag';
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../../../environments/environment.development';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -8,41 +11,16 @@ import { Tag } from '../../shared/models/Tag';
 export class GamesService {
   
   constructor() { }
+  private http = inject(HttpClient); 
+  private apiUrl = environment.apiURL + '/api/games'; 
 
-  getGameById(id:number):Games{
-    return this.getAll().find(game => game.id == id)!;
+  public getAllGames(): Observable<Games[]>{
+    return this.http.get<Games[]>(this.apiUrl); 
   }
-
-  getAllTags(): Tag[] {
-    const tags: Tag[] = [];
-
-    this.getAll().forEach(game => {
-      game.tags?.forEach(tag => {
-        const existingTag = tags.find(t => t.name === tag.name);
-        if (existingTag) {
-          existingTag.count += 1;
-        } else {
-          // Make a new Tag object
-          tags.push({ name: tag.name, count: 1 });
-        }
-      });
-    });
-    return tags; 
-  }
-  
-  getAllGamesByTag(tagName: string): Games[] {
-  const name = tagName?.trim().toLowerCase();
-  if (!name || name === 'all') return this.getAll();
-
-  return this.getAll().filter(game =>
-    (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
-  );
 }
 
-  getAll():Games[]{
 
- return [
-      {
+ /*  {
         id: 1,
         name: 'Clair Obscur: Expedition 33',
         price: 49.99,
@@ -96,6 +74,32 @@ export class GamesService {
         tags: [{name:'PS5', count:1}, {name:'Xbox Series X', count:1}, {name:'Shooter', count:1}],
         releaseDate: '2025-11-14'
       }
-    ];
+        
+        getGameById(id:number):Games{
+    return this.getAll().find(game => game.id == id)!;
   }
-}
+
+  getAllTags(): Tag[] {
+    const tags: Tag[] = [];
+
+    this.getAll().forEach(game => {
+      game.tags?.forEach(tag => {
+        const existingTag = tags.find(t => t.name === tag.name);
+        if (existingTag) {
+          existingTag.count += 1;
+        } else {
+          // Make a new Tag object
+          tags.push({ name: tag.name, count: 1 });
+        }
+      });
+    });
+    return tags; 
+  }
+  
+  getAllGamesByTag(tagName: string): Games[] {
+  const name = tagName?.trim().toLowerCase();
+  if (!name || name === 'all') return this.getAll();
+
+  return this.getAll().filter(game =>
+    (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
+  );*/ 

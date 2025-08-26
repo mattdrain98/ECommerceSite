@@ -1,23 +1,17 @@
-<app-not-found [visible]="!games || games.length <=0"
-notFoundMessage="Game Page Is Empty!"></app-not-found>
-
 <app-search></app-search>
 <app-tags></app-tags>
 <ul>
-    @for (game of games; track game) {
+    @for (game of $any(games | async); track game) {
         <li>
-            <a href="/game/{{game.id}}" routerLink="['/game', game.id]">
-                <span class="favorite {{game.favorite ? '' : 'not'}}">
-                    ❤
-                </span>
-                <img src="{{game.imageUrl}}" alt="Game Image">
+            <a href="/game/{{game.gameId}}" routerLink="['/game', game.id]">
+                <img src="{{game.gameImageUrl}}" alt="Game Image">
                 <div class="content">
-                    <div class="name">{{game.name}}</div>
+                    <div class="name">{{game.gameName}}</div>
                 </div> 
                 <div class="product-item-footer">
                 </div>
                 <div class="price">
-                    {{game.price | currency}}
+                    {{game.gamePrice | currency}}
                 </div>
             </a>
         </li>

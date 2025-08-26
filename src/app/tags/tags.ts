@@ -20,7 +20,7 @@ export class Tags implements OnInit {
   tags:Tag[] = [] 
 
   ngOnInit(): void {
-    this.tags = this.gameService.getAllTags(); 
+    //this.tags = this.gameService.getAllTags(); 
   }
 
 }
