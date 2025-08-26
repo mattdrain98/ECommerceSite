@@ -85,7 +85,7 @@ export class GamesService {
         imageUrl: '/assets/games/images/78d2ba2e-d423-43f0-a9a5-b0d8f5d5556b.webp',
         description: 'Discover a bold, new story of a warrior in Japan who is on a mission of vengeance all her own. Set 300 years after the critically acclaimed Ghost of Tsushima, Ghost of Yōtei is a standalone experience set in 1600s rural Japan. The story follows a haunted, lone mercenary named Atsu. Thirsty for revenge, she travels through the beautiful, rugged landscapes of northern Japan, hunting those who killed her family many years earlier. Sixteen years after her family`s death, Atsu`s quest across Ezo brings her to unexplored lands in search of a gang of six outlaws, but she finds much more than vengeance. Throughout her journey, Atsu will discover unlikely allies, and greater bonds than she could have imagined.',
         tags: [{name:'PS5', count:1}, {name:'Action', count:1}, {name:'Adventure',count:1}],
-        releaseDate: '2025-10-02'
+        releaseDate: '2025-08-07'
       },
       {
         id: 6,

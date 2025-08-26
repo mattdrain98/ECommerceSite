@@ -6,7 +6,6 @@ export class Games{
   price!:number;
   tags?:Tag[];
   favorite?:boolean = false;
-  stars?:number;
   imageUrl!:string;
   releaseDate!:string;
   description?:string;
