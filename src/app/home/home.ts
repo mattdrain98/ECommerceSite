@@ -6,7 +6,7 @@ import { Search } from "../search/search";
 import { Tags } from "../tags/tags";
 import { CurrencyPipe, AsyncPipe } from '@angular/common';
 import { NotFound } from '../not-found/not-found';
-import { Observable } from 'rxjs';
+import { catchError, map, Observable, of, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-home',  
@@ -19,10 +19,29 @@ export class Home implements OnInit {
   games!: Observable<Games[]>; 
   constructor(private gameService: GamesService, private route:ActivatedRoute) { }
 
-  ngOnInit(): void {
-    this.games = this.gameService.getAllGames()
-  }
-
+ngOnInit(): void {
+  this.games = this.route.params.pipe(
+    switchMap(params => {
+      if (params['searchTerm']) {
+        return this.gameService.getAllGames().pipe(
+          map(games =>
+            games.filter(game =>
+              game.name.toLowerCase().includes(params['searchTerm'].toLowerCase())
+            )
+          ),
+          catchError(err => {
+            console.error('Search failed:', err);
+            return of([]); // empty list instead of blank page
+          })
+        );
+      } else if (params['tag']) {
+        return this.gameService.getAllGamesByTag(params['tag']);
+      } else {
+        return this.gameService.getAllGames();
+      }
+    })
+  );
+}
   /*
 this.route.params.subscribe(params => {
       if (params['searchTerm'])

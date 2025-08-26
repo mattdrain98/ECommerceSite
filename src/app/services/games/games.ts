@@ -3,7 +3,7 @@ import { Games } from '../../shared/models/Games';
 import { Tag } from '../../shared/models/Tag';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment.development';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,10 +17,41 @@ export class GamesService {
   public getAllGames(): Observable<Games[]>{
     return this.http.get<Games[]>(this.apiUrl); 
   }
+
+  getAllGamesByTag(tagName: string): Observable<Games[]> {
+    const name = tagName?.trim().toLowerCase();
+    if (!name || name === 'all') return this.getAllGames();
+
+    return this.getAllGames().pipe(
+      map(games => 
+        games.filter(game =>
+          (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
+        )
+      )
+    );
+  }
 }
 
 
- /*  {
+ /*  
+   getAllTags(): Tag[] {
+    const tags: Tag[] = [];
+
+    this.getAll().forEach(game => {
+      game.tags?.forEach(tag => {
+        const existingTag = tags.find(t => t.name === tag.name);
+        if (existingTag) {
+          existingTag.count += 1;
+        } else {
+          // Make a new Tag object
+          tags.push({ name: tag.name, count: 1 });
+        }
+      });
+    });
+    return tags; 
+  }
+ 
+ {
         id: 1,
         name: 'Clair Obscur: Expedition 33',
         price: 49.99,
@@ -79,27 +110,5 @@ export class GamesService {
     return this.getAll().find(game => game.id == id)!;
   }
 
-  getAllTags(): Tag[] {
-    const tags: Tag[] = [];
 
-    this.getAll().forEach(game => {
-      game.tags?.forEach(tag => {
-        const existingTag = tags.find(t => t.name === tag.name);
-        if (existingTag) {
-          existingTag.count += 1;
-        } else {
-          // Make a new Tag object
-          tags.push({ name: tag.name, count: 1 });
-        }
-      });
-    });
-    return tags; 
-  }
-  
-  getAllGamesByTag(tagName: string): Games[] {
-  const name = tagName?.trim().toLowerCase();
-  if (!name || name === 'all') return this.getAll();
-
-  return this.getAll().filter(game =>
-    (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
   );*/ 
