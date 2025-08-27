@@ -1,4 +1,4 @@
-using ECommerceSite;
+using ECommerceSite.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
