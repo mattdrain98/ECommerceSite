@@ -18,7 +18,11 @@ export class GamesService {
     return this.http.get<Games[]>(this.apiUrl); 
   }
 
-  getAllGamesByTag(tagName: string): Observable<Games[]> {
+  public getGameById(id: number): Observable<Games>{
+    return this.http.get<Games>(this.apiUrl + `/${id}`); 
+  }
+
+  public getAllGamesByTag(tagName: string): Observable<Games[]> {
     const name = tagName?.trim().toLowerCase();
     if (!name || name === 'all') return this.getAllGames();
 

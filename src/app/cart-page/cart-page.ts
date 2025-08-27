@@ -23,13 +23,13 @@ export class CartPage {
   }
 
   removeFromCart(cartItem: CartItem){
-    this.cartService.removeFromCart(cartItem.game.id); 
+    this.cartService.removeFromCart(cartItem.game.gameId); 
     this.setCart(); 
   }
 
   changeQuantity(cartItem:CartItem, quantityInString: string){
     const quantity = parseInt(quantityInString); 
-    this.cartService.changeQuantity(cartItem.game.id, quantity); 
+    this.cartService.changeQuantity(cartItem.game.gameId, quantity); 
   }
 
   setCart(){

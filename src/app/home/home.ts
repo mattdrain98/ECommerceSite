@@ -26,7 +26,7 @@ ngOnInit(): void {
         return this.gameService.getAllGames().pipe(
           map(games =>
             games.filter(game =>
-              game.name.toLowerCase().includes(params['searchTerm'].toLowerCase())
+              game.gameName.toLowerCase().includes(params['searchTerm'].toLowerCase())
             )
           ),
           catchError(err => {

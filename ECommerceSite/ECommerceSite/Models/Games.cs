@@ -9,7 +9,7 @@ namespace ECommerceSite.Models
     public string gameName { get; set; }
     public double gamePrice { get; set; }
     public string gameImageUrl { get; set; }
-    public string gameDescription { get; set; }
+    public string? gameDescription { get; set; }
     public DateTime gameReleaseDate { get; set; }
   }
 }

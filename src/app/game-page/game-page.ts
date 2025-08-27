@@ -4,16 +4,16 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { GamesService } from '../services/games/games';
 import { CartService } from '../services/cart/cart';
 import { catchError, Observable } from 'rxjs';
-
+import { CurrencyPipe, AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-game-page',
-  imports: [],
+  imports: [CurrencyPipe, AsyncPipe],
   templateUrl: './game-page.html',
   styleUrl: './game-page.css'
 })
 export class GamePage implements OnInit {
 
-  games$!: Observable<Games[]>;
+  game!: Observable<Games>; 
   errorMessage?: string;
    
   constructor(private activatedRoute: ActivatedRoute,
@@ -24,12 +24,11 @@ export class GamePage implements OnInit {
   }
 
   ngOnInit(): void {
-    this.games$ = this.gameService.getAllGames(); 
-
-    var test = 0; 
+    this.activatedRoute.params.subscribe(params => {
+      if (params['gameId'])
+        this.game = this.gameService.getGameById(params['gameId']); 
+    }); 
   }
-
-
 }
 
 /*
