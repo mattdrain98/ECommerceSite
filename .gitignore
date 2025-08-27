@@ -3,3 +3,5 @@
 ################################################################################
 
 /ECommerceSite.Server/ECommerceSite/ApplicationDbContext.cs
+
+.fake
