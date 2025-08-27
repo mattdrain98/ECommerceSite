@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\models\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\models\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:1:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\ecommercesite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:1:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\ecommercesite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:2:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|c:\\users\\matthew\\source\\repos\\ecommercesite\\ecommercesite\\ecommercesite\\ecommercesite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:2:0:{B4B25D4F-4D64-48BC-90AD-8EE8D6C22304}|ECommerceSite\\ECommerceSite.csproj|solutionrelative:ecommercesite\\ecommercesite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ECommerceSite\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ECommerceSite\\ApplicationDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:06:02.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerceSite\\Program.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Program.cs",
+              "RelativeToolTip": "ECommerceSite\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:04:19.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "ECommerceSite\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "ECommerceSite\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T17:21:25.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ECommerceSite.csproj",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
+              "RelativeDocumentMoniker": "ECommerceSite\\ECommerceSite.csproj",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
+              "RelativeToolTip": "ECommerceSite\\ECommerceSite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-26T16:55:25.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Games.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Models\\Games.cs",
+              "RelativeDocumentMoniker": "ECommerceSite\\Models\\Games.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Models\\Games.cs",
+              "RelativeToolTip": "ECommerceSite\\Models\\Games.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T16:38:10.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Models\\Tags.cs",
+              "RelativeDocumentMoniker": "ECommerceSite\\Models\\Tags.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Models\\Tags.cs",
+              "RelativeToolTip": "ECommerceSite\\Models\\Tags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:50:49.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ECommerceSite\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ECommerceSite\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T20:55:39.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ECommerceSite\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ECommerceSite\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T20:54:57.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ECommerceSite.csproj",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
+              "RelativeDocumentMoniker": "ECommerceSite\\ECommerceSite.csproj",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\ECommerceSite.csproj",
+              "RelativeToolTip": "ECommerceSite\\ECommerceSite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T20:07:59.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ECommerceSite\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite\\ECommerceSite\\appsettings.Development.json",
+              "RelativeToolTip": "ECommerceSite\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T20:10:03.133Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
