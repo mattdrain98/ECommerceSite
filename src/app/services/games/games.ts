@@ -3,7 +3,7 @@ import { Games } from '../../shared/models/Games';
 import { Tag } from '../../shared/models/Tag';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment.development';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'

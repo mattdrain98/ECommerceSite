@@ -6,7 +6,7 @@ import { Search } from "../search/search";
 import { Tags } from "../tags/tags";
 import { CurrencyPipe, AsyncPipe } from '@angular/common';
 import { NotFound } from '../not-found/not-found';
-import { Observable } from 'rxjs';
+import { catchError, map, Observable, of, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-home',  
@@ -26,7 +26,7 @@ ngOnInit(): void {
         return this.gameService.getAllGames().pipe(
           map(games =>
             games.filter(game =>
-              game.name.toLowerCase().includes(params['searchTerm'].toLowerCase())
+              game.gameName.toLowerCase().includes(params['searchTerm'].toLowerCase())
             )
           ),
           catchError(err => {
