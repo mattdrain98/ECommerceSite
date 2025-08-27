@@ -10,6 +10,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "ECommerceSite.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
@@ -29,5 +30,21 @@
       }
     ],
     "EndpointName": "GetWeatherForecast"
+=======
+    "ContainingType": "ECommerceSite.Controllers.GamesController",
+    "Method": "GetGameById",
+    "RelativePath": "api/Games/{gameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+>>>>>>> 6863597 (Game page now works with api)
   }
 ]

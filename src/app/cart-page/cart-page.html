@@ -9,11 +9,11 @@ resetLinkText="Go To Home Page"></app-not-found>
         @for (item of cart.items; track item) {
         <li>
             <div>
-                <img src="{{item.game.imageUrl}}" src="{{item.game.name}}" />
+                <img src="{{item.game.gameImageUrl}}" src="{{item.game.gameName}}" />
             </div>
             <div>
-                <a href="/game/{{item.game.id}}" routerLink="['/game', item.game.id]">
-                    {{item.game.name}}
+                <a href="/game/{{item.game.gameId}}" routerLink="['/game', item.game.gameId]">
+                    {{item.game.gameName}}
                 </a>
             </div>
             <div>

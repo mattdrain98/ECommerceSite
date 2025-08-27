@@ -17,6 +17,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -52,6 +53,27 @@
                 }
               }
             }
+=======
+    "/api/Games/{gameId}": {
+      "get": {
+        "tags": [
+          "Games"
+        ],
+        "parameters": [
+          {
+            "name": "gameId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+>>>>>>> 6863597 (Game page now works with api)
           }
         }
       }

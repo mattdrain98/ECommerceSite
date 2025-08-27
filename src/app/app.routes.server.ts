@@ -18,7 +18,7 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Client
   },
   {
-    path: 'game/:id', 
+    path: 'game/:gameId', 
     renderMode: RenderMode.Client
   }
 ];

@@ -7,6 +7,6 @@ export const routes: Routes = [
     { path: '', component: Home },
     { path: 'search/:searchTerm', component: Home },
     { path: 'tag/:tag', component: Home },
-    { path: 'game/:id', component: GamePage },
+    { path: 'game/:gameId', component: GamePage },
     { path: 'cart-page', component: CartPage }
 ];

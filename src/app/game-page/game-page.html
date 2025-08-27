@@ -1,23 +1,21 @@
 <div class="container">
-
-    <!--@for (game in games$; track gameId)
+    @if(game | async; as g)
     {
-
-    }--> 
-    <!-- <img [src]="game.imageUrl" [alt]="game.name" /> --> 
-
-    <div class="details">
-        <div class="header">
-            <span class="name">
-               <!-- {{game.name}}--> 
-            </span>
-           <!-- <span class="favorite {{game.favorite ? '' : 'not'}}">
+        <img src="{{g.gameImageUrl}}" alt="{{g.gameName}}"/> 
+        <div class="details">TEST
+            <div class="header">
+                <span class="name">
+                    {{g.gameName}}
+                </span>
+                <!-- <span class="favorite {{game.favorite ? '' : 'not'}}">
                 ❤
-            </span>--> 
-        </div>
-        <div class="price">
-            <!--${{game.price}}-->
-        </div>
+                </span>--> 
+            </div>
+            <div class="price">
+            {{g.gamePrice | currency}}
+            </div>
         <!--<button (click)="addToCart()">Add to Cart</button>--> 
-    </div>
+        </div>
+    }
+        
 </div>

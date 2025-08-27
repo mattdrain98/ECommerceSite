@@ -17,10 +17,41 @@ export class GamesService {
   public getAllGames(): Observable<Games[]>{
     return this.http.get<Games[]>(this.apiUrl); 
   }
+
+  getAllGamesByTag(tagName: string): Observable<Games[]> {
+    const name = tagName?.trim().toLowerCase();
+    if (!name || name === 'all') return this.getAllGames();
+
+    return this.getAllGames().pipe(
+      map(games => 
+        games.filter(game =>
+          (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
+        )
+      )
+    );
+  }
 }
 
 
- /*  {
+ /*  
+   getAllTags(): Tag[] {
+    const tags: Tag[] = [];
+
+    this.getAll().forEach(game => {
+      game.tags?.forEach(tag => {
+        const existingTag = tags.find(t => t.name === tag.name);
+        if (existingTag) {
+          existingTag.count += 1;
+        } else {
+          // Make a new Tag object
+          tags.push({ name: tag.name, count: 1 });
+        }
+      });
+    });
+    return tags; 
+  }
+ 
+ {
         id: 1,
         name: 'Clair Obscur: Expedition 33',
         price: 49.99,

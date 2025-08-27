@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ECommerceSite.Controllers
 {
@@ -17,11 +18,18 @@ namespace ECommerceSite.Controllers
     }
 
     [HttpGet]
-    public IActionResult GetAllGames()
+    public async Task<IActionResult> GetAllGames()
     {
-      var allGames = _context.Games.ToList();
-
+      var allGames = await _context.Games.ToListAsync();
       return Ok(allGames);
+    }
+
+    [HttpGet("{gameId}")]
+    public async Task<IActionResult> GetGameById(int gameId)
+    {
+      var gameById = await _context.Games.FirstOrDefaultAsync(g => g.gameId == gameId); //grab game based on id
+
+      return Ok(gameById); 
     }
   }
 }

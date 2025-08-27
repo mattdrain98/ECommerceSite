@@ -11,6 +11,6 @@ export class CartItem{
     quantity:number = 1; 
 
     get price():number{
-        return this.game.price * this.quantity; 
+        return this.game.gamePrice * this.quantity; 
     }
 }

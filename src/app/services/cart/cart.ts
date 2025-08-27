@@ -11,9 +11,9 @@ export class CartService {
   constructor() { }
 
   addToCart(game: Games): void {
-    let cartItem = this.cart.items.find(item => item.game.id === game.id); 
+    let cartItem = this.cart.items.find(item => item.game.gameId === game.gameId); 
     if (cartItem) {
-      this.changeQuantity(game.id, cartItem.quantity + 1);
+      this.changeQuantity(game.gameId, cartItem.quantity + 1);
       return; 
     } else {
       this.cart.items.push(new CartItem(game)); 
@@ -22,11 +22,11 @@ export class CartService {
 
   removeFromCart(gameId: number): void {
     this.cart.items = 
-    this.cart.items.filter(item => item.game.id != gameId); 
+    this.cart.items.filter(item => item.game.gameId != gameId); 
   }
 
   changeQuantity(gameId:number, quantity: number) {
-    let cartItem = this.cart.items.find(item => item.game.id === gameId); 
+    let cartItem = this.cart.items.find(item => item.game.gameId === gameId); 
     if(!cartItem) return; 
     cartItem.quantity = quantity; 
   }
