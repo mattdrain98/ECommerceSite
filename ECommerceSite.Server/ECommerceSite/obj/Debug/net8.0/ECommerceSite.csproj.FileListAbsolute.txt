@@ -162,3 +162,16 @@ C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite\ECommerceSite\bin\Debu
 C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite\ECommerceSite\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite\ECommerceSite\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite\ECommerceSite\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.csproj.AssemblyReference.cache
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.AssemblyInfoInputs.cache
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.AssemblyInfo.cs
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.sourcelink.json
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.dll
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\refint\ECommerceSite.dll
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\ECommerceSite.pdb
+C:\Users\Matthew\source\repos\ECommerceSite\ECommerceSite.Server\ECommerceSite\obj\Debug\net8.0\rjimswa.dswa.cache.json
