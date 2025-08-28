@@ -31,5 +31,13 @@ namespace ECommerceSite.Controllers
 
       return Ok(gameById); 
     }
+
+    [HttpGet("search/{searchTerm}")]
+    public async Task<IActionResult> GetGamesByTag(string searchTerm)
+    {
+      var gamesByTag = await _context.Games.Where(g => g.gameName.ToLower().Contains(searchTerm.ToLower())).ToListAsync();
+
+      return Ok(gamesByTag);
+    }
   }
 }

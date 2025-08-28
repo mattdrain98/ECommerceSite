@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { GamesService } from '../services/games/games';
+import { Observable } from 'rxjs';
+import { Games } from '../shared/models/Games';
 
 @Component({
   selector: 'app-search',
@@ -11,8 +14,8 @@ import { FormsModule } from '@angular/forms';
 export class Search implements OnInit {
 
   searchTerm: string = '';
-  
-  constructor(private route: ActivatedRoute, private router: Router) { }
+  games!: Observable<Games[]>; 
+  constructor(private route: ActivatedRoute, private router: Router, private gameService: GamesService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
@@ -23,6 +26,9 @@ export class Search implements OnInit {
 
   search(): void {
     if (this.searchTerm.trim()) 
+    {
       this.router.navigateByUrl(`/search/${this.searchTerm}`);
+      this.games = this.gameService.getGamesBySearch(this.searchTerm.trim()); 
+    }
   }
 }

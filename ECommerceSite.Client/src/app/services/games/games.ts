@@ -22,6 +22,10 @@ export class GamesService {
     return this.http.get<Games>(this.apiUrl + `/${id}`); 
   }
 
+  public getGamesBySearch(searchTerm: string): Observable<Games[]>{
+    return this.http.get<Games[]>(this.apiUrl + `/search/${searchTerm}`); 
+  }
+
   public getAllGamesByTag(tagName: string): Observable<Games[]> {
     const name = tagName?.trim().toLowerCase();
     if (!name || name === 'all') return this.getAllGames();
