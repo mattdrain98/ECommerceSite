@@ -30,12 +30,6 @@ export class GamesService {
     const name = tagName?.trim().toLowerCase();
     if (!name || name === 'all') return this.getAllGames();
 
-    return this.getAllGames().pipe(
-      map(games => 
-        games.filter(game =>
-          (game.tags ?? []).some(t => t.name.trim().toLowerCase() === name)
-        )
-      )
-    );
+    return this.http.get<Games[]>(this.apiUrl + `/tags/${tagName}`); 
   }
 }

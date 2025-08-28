@@ -1,12 +1,13 @@
 <div class="tags" [style.justifyContent]="justifyContent">
-    @if (tags.length > 0)
+    @if (tags$ | async; as tags)
     {
-        @for (tag of tags; track tag) {
+        @for (tag of $any(tags$ | async); track tag) {
             <a class="tag" href="/tag/{{tag.name}}" routerLink="['/tag', 'tag', tagName]">
                 {{tag.name}} ({{tag.count}})
             </a>
         }
     }
+
 </div>
 <div class="tags">
     @if (gamePageTags && gamePageTags.length > 0)

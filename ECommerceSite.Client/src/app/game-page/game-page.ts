@@ -32,10 +32,6 @@ export class GamePage implements OnInit {
 }
 
 /*
-    this.activatedRoute.params.subscribe(params => {
-      if (params['id'])
-        this.game = gameService.getGameById(params['id']);  
-    });
 
   addToCart() {
     this.cartService.addToCart(this.game);

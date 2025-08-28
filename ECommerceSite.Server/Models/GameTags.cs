@@ -6,7 +6,7 @@ namespace ECommerceSite.Models
   public class GameTags
   {
     [Key]
-    public int Id { get; set; }
+    public int gameTagsId { get; set; }
     [ForeignKey(nameof(gameId))]
     public int gameId { get; set; }
     [ForeignKey(nameof(tagId))]

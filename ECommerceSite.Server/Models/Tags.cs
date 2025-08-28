@@ -5,7 +5,7 @@ namespace ECommerceSite.Models
   public class Tags
   {
     [Key]
-    public int Id { get; set; }
+    public int tagId { get; set; }
     public string tagName { get; set; }
   }
 }
