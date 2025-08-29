@@ -7,6 +7,6 @@ export class Games{
   tags?:Tag[];
   favorite?:boolean = false;
   gameImageUrl!:string;
-  releaseDate!:string;
-  description?:string;
+  gameReleaseDate!:string;
+  gameDescription?:string;
 }

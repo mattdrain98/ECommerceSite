@@ -40,5 +40,21 @@ namespace ECommerceSite.Server.Controllers
 
             return Ok(tagCounts);
         }
+
+        [HttpGet("tagId/{tagId}")]
+        public async Task<IActionResult> GetTagById(int tagId)
+        {
+            var tagById = await _context.Tags.FirstOrDefaultAsync(t =>  t.tagId == tagId);
+
+            return Ok(tagById);
+        }
+
+        [HttpGet("tagName/{tagName}")]
+        public async Task<IActionResult> GetTagByName(string tagName)
+        {
+            var tagById = await _context.Tags.FirstOrDefaultAsync(t => t.tagName == tagName);
+
+            return Ok(tagById);
+        }
     }
 }

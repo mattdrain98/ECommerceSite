@@ -35,6 +35,4 @@ export class CartPage {
   setCart(){
     this.cart = this.cartService.getCart(); 
   }
-
-
 }

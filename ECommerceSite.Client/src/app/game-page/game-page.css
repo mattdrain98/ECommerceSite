@@ -33,6 +33,7 @@ img{
 .details .header{
     display: flex; 
     justify-content: space-between;
+    width: 20rem;
 }
 
 .details .name {
@@ -58,6 +59,10 @@ img{
 .details .price::before{
     content: "Price: "; 
     color: darkgrey; 
+}
+
+.details .description{
+    width: 20rem; 
 }
 
 .details button{

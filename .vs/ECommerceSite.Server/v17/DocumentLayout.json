@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "ECommerceSite.Server\\Controllers\\TagController.cs",
               "ToolTip": "C:\\Users\\Matthew\\source\\repos\\ECommerceSite\\ECommerceSite.Server\\Controllers\\TagController.cs",
               "RelativeToolTip": "ECommerceSite.Server\\Controllers\\TagController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T14:33:15.04Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\Models\\Games.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:23:41.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T14:23:41.817Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\Models\\Tags.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:23:35.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T14:23:35.617Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\Models\\GameTags.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:23:28.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T14:23:28.479Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:07:10.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T19:07:10.98Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\Controllers\\GamesController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:06:54.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T19:06:54.651Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "ECommerceSite.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:03:27.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T19:03:27.996Z"
             }
           ]
         }

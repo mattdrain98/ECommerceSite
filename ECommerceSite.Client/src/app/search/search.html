@@ -1,4 +1,10 @@
 <div>
+    <select [(ngModel)]="selectedTagName" (change)="onTagChange()">
+    <option value="">-- Select a tag --</option>
+    @for (tag of $any(tags$ | async); track tag) {
+    <option [value]="tag.name">{{ tag.name }}</option>
+    }
+    </select>
     <input type="text" placeholder="Search for games..." [(ngModel)]="searchTerm" (charge)="search()">
     <button (click)="search()">Search</button>
 </div>

@@ -21,7 +21,7 @@ export class Tags implements OnInit {
 
   constructor(private tagService:TagsService) { }
 
-  tags$!:Observable<Tags[]>
+  tags$!:Observable<Tag[]>
 
   ngOnInit(): void {
     this.tags$ = this.tagService.getAllTags(); 

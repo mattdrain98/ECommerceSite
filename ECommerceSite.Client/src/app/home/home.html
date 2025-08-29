@@ -1,4 +1,4 @@
-<app-search></app-search>
+<app-search (filterChanged)="applyFilter($event)"></app-search>
 <app-tags></app-tags>
 <ul>
     @for (game of $any(games | async); track game) {
